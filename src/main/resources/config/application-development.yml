@@ -8,44 +8,44 @@ server:
 logging:
   path: /var/logs/
   file: BookWorm_development.log
-  config: classpath:config/logback-spring.xml    
+  config: classpath:config/logback-spring.xml
   level:
     root: DEBUG
 
 
- 
- 
+
+
 spring:
-  thymeleaf: 
+  thymeleaf:
     prefix: classpath:/templates
     suffix: .html
     #html5
     mode: LEGACYHTML5
     cache: false
-#   mvc:
-#     view:
-#       perfix: classpath:/templates/web/jsp
-#       suffix: .jsp
+  #   mvc:
+  #     view:
+  #       perfix: classpath:/templates/web/jsp
+  #       suffix: .jsp
 
 
-  datasource: 
+  datasource:
     url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
     username: root
     password: 123456
-#    driver-class-name: com.mysql.jdbc.Driver
-    
-   
-mybatis: 
+    #    driver-class-name: com.mysql.jdbc.Driver
+
+
+mybatis:
   #config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
-  
-#securityconfig: 
-#  logoutsuccessurl: /
-#  premitall: /rest/**,/bbs**
-#  deniedpage: /deny
-#  urlroles: /**/new = manage,amin;
-#           /**/edit/** = admin;
-#           /**/delete/** = admin
+
+    #securityconfig:
+    #  logoutsuccessurl: /
+    #  premitall: /rest/**,/bbs**
+    #  deniedpage: /deny
+    #  urlroles: /**/new = manage,amin;
+    #           /**/edit/** = admin;
+    #           /**/delete/** = admin
     
   
      

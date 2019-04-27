@@ -1,11 +1,11 @@
 package com.springboot;
 
-//@RunWith(SpringRunner.class)
-//@SpringBootTest
+// @RunWith(SpringRunner.class)
+// @SpringBootTest
 public class SpringbootApplicationTests {
 
-//	@Test
-//	public void contextLoads() {
-//	}
+    //	@Test
+    //	public void contextLoads() {
+    //	}
 
 }

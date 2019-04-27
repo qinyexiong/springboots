@@ -6,30 +6,30 @@ server:
   context-path: ~
   tomcat:
     uri-encoding: UTF-8
-    
+
 logging:
   path: /var/logs/
   file: BookWorm_development.log
-  config: classpath:config/logback-spring.xml    
+  config: classpath:config/logback-spring.xml
   level:
-    root: INFO  
+    root: INFO
 
 
- 
+
 spring:
-  thymeleaf: 
+  thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
     #html5
     mode: LEGACYHTML5
     cache: false
-  datasource: 
+  datasource:
     url: jdbc:mysql://127.0.0.1:3306/prj?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
     username: root
     password: 123456
-    
-   
-mybatis: 
+
+
+mybatis:
   #config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
      
