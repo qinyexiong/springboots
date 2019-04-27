@@ -10,9 +10,11 @@ import java.util.Date;
 public class UserService {
 
     public BaseResult queryList() {
+
+
         SysUser user = new SysUser();
         user.setId(0);
-        user.setUsername("");
+        user.setUsername("das ");
         user.setTelephone("");
         user.setMail("");
         user.setPassword("");
