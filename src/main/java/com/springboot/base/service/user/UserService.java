@@ -14,8 +14,8 @@ public class UserService {
 
         SysUser user = new SysUser();
         user.setId(0);
-        user.setUsername("daswqweqeqww ");
-        user.setTelephone("scasd adas ");
+        user.setUsername("33");
+        user.setTelephone("55");
         user.setMail("");
         user.setPassword("");
         user.setDeptId(0);
