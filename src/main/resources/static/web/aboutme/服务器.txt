@@ -1,0 +1,25 @@
+service ip：23.105.193.183
+pwd：qyx@5213
+address: https://kiwivm.64clouds.com/main.php
+
+问题处理：
+
+http://ju.outofmemory.cn/entry/357236
+
+https://www.banwagongzw.com/90.html
+
+
+{
+    "server":"23.105.193.183",
+    "server_port":8761,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"5213",
+    "timeout":300,
+    "method":"aes-256-cfb",
+    "fast_open": false,
+    "workers": 5
+}
+
+
+ssserver -c  /etc/shadowsocks/shadowsocks.json -d start
