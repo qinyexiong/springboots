@@ -17,5 +17,11 @@ public class DefaultView {
         modelAndView.setViewName("/web/common4ace/security/login");
         return modelAndView;
     }
+    @RequestMapping("/mui")
+    public ModelAndView view4Mui(){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/web/common4Mui/index");
+        return modelAndView;
+    }
 }
 
