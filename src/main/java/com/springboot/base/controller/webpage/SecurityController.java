@@ -15,21 +15,28 @@ public class SecurityController {
         return modelAndView;
     }
 
-    @RequestMapping("/login")
+    @RequestMapping("/loginAce")
     public ModelAndView login() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("/web/common4ace/security/login");
         return modelAndView;
     }
 
-    @RequestMapping("/jui")
+    @RequestMapping("/loginDwz")
+    public ModelAndView login4Jui() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/web/common4dwz/security/login");
+        return modelAndView;
+    }
+
+    @RequestMapping("/login/indexDwz")
     public ModelAndView indexJui() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("/web/common4dwz/frame/index");
         return modelAndView;
     }
 
-    @RequestMapping("/ace")
+    @RequestMapping("/login/indexAce")
     public ModelAndView indexAce() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("/web/common4ace/frame/index");
