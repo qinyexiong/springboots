@@ -15,6 +15,7 @@ public class WebConfig implements WebMvcConfigurer {
 //		registry.addViewController("/login-error").setViewName("/web/common/security/error2");
 //		registry.addViewController("/index").setViewName("/web/common/frame/index");
 //		registry.addViewController("/logout").setViewName("/web/common/security/login");
+
     }
 
 

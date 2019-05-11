@@ -43,5 +43,12 @@ public class SecurityController {
         return modelAndView;
     }
 
+    @RequestMapping("/top")
+    public ModelAndView top() {
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/web/common4ace/frame/top");
+        return modelAndView;
+    }
+
 
 }
