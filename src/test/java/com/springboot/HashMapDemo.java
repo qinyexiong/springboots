@@ -1,5 +1,6 @@
 package com.springboot;
 
+
 import java.util.HashMap;
 
 /**
@@ -8,13 +9,16 @@ import java.util.HashMap;
  * @Description:
  */
 public class HashMapDemo {
-    
+
     public static void main(String[] args) {
         HashMap<String, String> hashMap = new HashMap<>();
-        hashMap.put("s","31");
-        hashMap.put("s","30");
-        System.out.println("控制台输出:"+hashMap.get("s"));
+        hashMap.put("s", "30");
+        hashMap.put("s", "31");
+        System.out.println("控制台输出:" + hashMap.get("s"));
+        new HashMap<>();
 
-        }
-    
+
+    }
+
+
 }

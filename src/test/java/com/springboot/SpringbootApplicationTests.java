@@ -1,14 +1,23 @@
 package com.springboot;
 
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
 import java.util.Scanner;
 
-// @RunWith(SpringRunner.class)
-// @SpringBootTest
+@RunWith(SpringRunner.class)
+ @SpringBootTest
 public class SpringbootApplicationTests {
 
-    //	@Test
-    //	public void contextLoads() {
-    //	}
+   	@Test
+   	public void contextLoads() {
+
+
+
+
+  	}
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
